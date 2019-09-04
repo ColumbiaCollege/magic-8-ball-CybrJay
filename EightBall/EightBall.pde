@@ -2,7 +2,7 @@
 
 void setup() {
   //text for answers
-  String[] words = {"These are not the droids your looking for.", "Use me for @ button", "Knowledge, you must have.", "Magical, this ball is.", "Beeeesss", "Beeeeessss"};
+  String[] words = {"These are not the droids your looking for", "Use me for @ button", "Knowledge, you must have", "Magical, this ball is", "Yoda would be proud of this ball", "Clicks button"};
   println(words[0]);
   println(words[1]);
   println(words[2]);
