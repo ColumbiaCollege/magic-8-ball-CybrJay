@@ -1,6 +1,13 @@
 //Eight Ball Project
 
 void setup() {
+  //text for answers
+  String[] words = {"These are not the droids your looking for.", "Use me for @ button", "Knowledge, you must have.", "Magical, this ball is.", "Beeeesss", "Beeeeessss"};
+  println(words[0]);
+  println(words[1]);
+  println(words[2]);
+  println(words[3]);
+  println(words[4]);
   //size of window
   size(900, 500);
   //size for text
