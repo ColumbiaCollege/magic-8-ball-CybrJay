@@ -2,12 +2,16 @@
 
 void setup() {
   //text for answers
-  String[] words = {"These are not the droids your looking for", "Use me for @ button", "Knowledge, you must have", "Magical, this ball is", "Yoda would be proud of this ball", "Clicks button"};
+  String[] words = {"These are not the droids your looking for", "Use me for @ button", "Knowledge, you must have", "Magical, this ball is", "Yoda would be proud of this ball", "Clicks button","Where's the off button on this thing?"};
   println(words[0]);
   println(words[1]);
   println(words[2]);
   println(words[3]);
   println(words[4]);
+  println(words[5]);
+  println(words[6]);
+  //println(words[7]);
+  //println(words[8]);
   //size of window
   size(900, 500);
   //size for text
@@ -33,16 +37,14 @@ void draw() {
   ellipse(440, 210, 65, 50);
   //bottom part of the eight
   ellipse(440, 275, 95, 80);
-
-
-
-  
-
+  //fill for triangle
   fill(#f1f0cf);
+  //measurements for triangle
   triangle(440, 250, 440, 250, 440, 250);
   fill(255);
 }
 
 void mouseClicked() {
-  
+   //Random
+  text(int(random(6)), width/2, height/2);
 }  
